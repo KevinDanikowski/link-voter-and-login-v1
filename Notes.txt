@@ -1,0 +1,11 @@
+   Here is what you can do next:
+
+   1) Open project.graphcool in your editor to update your schema.
+      You can push your changes using `graphcool push`.
+
+   2) Use one of the following endpoints to connect to your GraphQL API:
+
+        Simple API:   https://api.graph.cool/simple/v1/cj83v5aak0vgu0114wcf05fxz
+        Relay API:    https://api.graph.cool/relay/v1/cj83v5aak0vgu0114wcf05fxz
+
+   3) Edit your project using the Console. Run `graphcool console` to open it.
