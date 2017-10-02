@@ -23,18 +23,19 @@ Their tutorial was amazing, but here are some additional notes.
 
 Copy what you see below into the Graph Cool editor, code found at: https://www.howtographql.com/react-apollo/1-getting-started/ 
 
-`mutation CreateGraphcoolLink {
+```
+mutation CreateGraphcoolLink {
   createLink(
     description: "The coolest GraphQL backend 😎",
     url: "https://graph.cool") {
     id
   }
-}`
-
-`mutation CreateApolloLink {
+}
+mutation CreateApolloLink {
   createLink(
     description: "The best GraphQL client",
     url: "http://dev.apollodata.com/") {
     id
   }
-}`
+}
+```
