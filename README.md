@@ -29,9 +29,9 @@ Copy what you see below into the Graph Cool editor, code found at: https://www.h
     url: "https://graph.cool") {
     id
   }
-}
+}`
 
-mutation CreateApolloLink {
+`mutation CreateApolloLink {
   createLink(
     description: "The best GraphQL client",
     url: "http://dev.apollodata.com/") {
