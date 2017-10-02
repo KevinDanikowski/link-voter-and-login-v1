@@ -10,9 +10,9 @@ import { addGraphQLSubscriptions } from 'add-graphql-subscriptions'
 import { GC_AUTH_TOKEN } from './constants'
 
 const networkInterface = createNetworkInterface({
-    uri: 'https://api.graph.cool/simple/v1/cj83v5aak0vgu0114wcf05fxz'
+    uri: 'https://api.graph.cool/simple/v1/<YOUR_SIMPLE_GRAPHQL_ENDPOINT>'
 })
-const wsClient = new SubscriptionClient('wss://subscriptions.graph.cool/v1/cj83v5aak0vgu0114wcf05fxz', {
+const wsClient = new SubscriptionClient('wss://subscriptions.graph.cool/v1/<YOUR_SUBSCRIPTIONS_GRAPHQL_ENDPOINT>', {
     reconnect: true,
     connectionParams: {
         authToken: localStorage.getItem(GC_AUTH_TOKEN),
